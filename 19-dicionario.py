@@ -16,3 +16,6 @@ for nome, detalhes in pessoas.items():
     for chave, valor in detalhes.items():
         print(f"  {chave.capitalize()}: {valor}")
     print()
+
+#exemplo de acesso a chaves
+print(pessoa.keys())
